@@ -118,7 +118,6 @@ document.write('  '+todaysDate);
 <BR/><HR/>
 <!--------------------------------------------------------------------------------->
 <!--------------------------------------------------------------------------------->
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -127,59 +126,49 @@ document.write('  '+todaysDate);
 * {
   box-sizing: border-box;
 }
-
 body {
   background-color: #f1f1f1;
   padding: 20px;
   font-family: Arial;
 }
-
 /* Center website */
 .main {
   max-width: 1000px;
   margin: auto;
 }
-
 h1 {
   font-size: 50px;
   word-break: break-all;
 }
-
 .row {
   margin: 10px -16px;
 }
-
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
   padding: 8px;
 }
-
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
   width: 33.33%;
   display: none; /* Hide all elements by default */
 }
-
 /* Clear floats after rows */ 
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
 /* Content */
 .content {
   background-color: #00FFFF;
   padding: 10px;
 }
-
 /* The "show" class is added to the filtered elements */
 .show {
   display: block;
 }
-
 /* Style the buttons */
 .btn {
   border: none;
@@ -188,11 +177,9 @@ h1 {
   background-color: #40FF00;
   cursor: pointer;
 }
-
 .btn:hover {
   background-color: #FF00FF;
 }
-
 .btn.active {
   background-color: #2E2EFE;
   color: white;
@@ -200,16 +187,13 @@ h1 {
 </style>
 </head>
 <body>
-
 <!-- MAIN (Center website) -->
 <div class="main">
-
 <a href="
 https://drive.google.com/uc?export=view&id=1m50qVHv2LcsFN9ykYlL_TRi6RlG6NLDB
 " target="_blank">
 <img src="https://drive.google.com/uc?export=view&id=1m50qVHv2LcsFN9ykYlL_TRi6RlG6NLDB" width="40%">
 </a>
-
 <hr>
 
 
@@ -221,9 +205,8 @@ https://drive.google.com/uc?export=view&id=1m50qVHv2LcsFN9ykYlL_TRi6RlG6NLDB
   <button class="btn" onclick="filterSelection('cars')"> Cars</button>
   <button class="btn" onclick="filterSelection('people')"> People</button>
 
-
+<!--------------------------------------------------------------------------------->
 </div>
-
 <!-- Portfolio Gallery Grid -->
 <div class="row">
 <!--------------------------------------------------------------------------------->
@@ -814,7 +797,7 @@ SOBRE
 
 
 
-
+<!--------------------------------------------------------------------------------->
 <!-- END GRID -->
 </div>
 <!-- END MAIN -->
@@ -830,7 +813,6 @@ function filterSelection(c) {
     if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
   }
 }
-
 function w3AddClass(element, name) {
   var i, arr1, arr2;
   arr1 = element.className.split(" ");
@@ -839,7 +821,6 @@ function w3AddClass(element, name) {
     if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
   }
 }
-
 function w3RemoveClass(element, name) {
   var i, arr1, arr2;
   arr1 = element.className.split(" ");
@@ -851,8 +832,6 @@ function w3RemoveClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
-
-
 // Add active class to the current button (highlight it)
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
@@ -864,20 +843,17 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 </script>
-
 </body>
 </html>
 <!---------------------------------------------------------------------->
 <BR/><HR/>
 <!---------------------------------------------------------------------->
-
 <html>
 <head>
 <style>
 .pagination {
   display: inline-block;
 }
-
 .pagination a {
   color: #FFFFFF;
   float: left;
@@ -887,13 +863,11 @@ for (var i = 0; i < btns.length; i++) {
   border: 1px solid #ddd;
   font-size: 22px;
 }
-
 .pagination a.active {
   background-color: #4CAF50;
   color: white;
   border: 1px solid #4CAF50;
 }
-
 .pagination a:hover:not(.active) {background-color: #2E2EFE;}
 </style>
 </head>
@@ -916,11 +890,11 @@ for (var i = 0; i < btns.length; i++) {
 </FONT></html>
 <html>
 <!---------------------------------------------------------------------->
-<a class="fa fa-envelope" href="mailto:?subject=&body=:%20" target="_blank=" title="Email"onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' + encodeURIComponent(document.URL)); return false;"><FONT COLOR="#FFFFFF">ENVIE ESSE SITE PARA O EMAIL DE UM(A) AMIGO(A)</FONT></a></a><br/>
+<a class="fa fa-envelope" href="mailto:?subject=&body=:%20" target="_blank=" title="Email"onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' + encodeURIComponent(document.URL)); return false;"><FONT COLOR="#FFFFFF">📭📩 - CLIQUE AQUI PARA ENVIE ESSE SITE PARA O EMAIL DE UM(A) AMIGO(A)</FONT></a></a><br/>
 <!---------------------------------------------------------------------->
 
 <!-------------------------WHATZAPP--------------------------------->
-<style> #imagem_whats{position:fixed;right:0;bottom:0;display:block;cursor:pointer;z-index:9999999;float:right} #imagem_whats2{position:fixed;right:0;bottom:0;display:block;cursor:pointer;z-index:9999999;float:right;display:none} @media only screen and (max-width: 999px) and (min-width: 100px){#imagem_whats{display:none}#imagem_whats2{display:block}}</style><img id="imagem_whats" src="https://www.ellodigital.com.br/images/whatsapp.png" onClick="window.open('https://web.whatsapp.com/send?phone=+5585988885153&amp;text=Olá!❤️ GOSTEI DE SEU SITE E GOSTARIA DE DIZER QUE ...', '_blank');"><img id="imagem_whats2" src="https://www.ellodigital.com.br/images/whatsapp.png" onClick="window.open('https://api.whatsapp.com/send?phone=+556200000000&amp;text=Olá!SANTOS, QUERIA FALAR QUE...', '_blank');"><div class="preloader"> <div class="preloaderimg"></div></div>
+<style> #imagem_whats{position:fixed;right:0;bottom:0;display:block;cursor:pointer;z-index:9999999;float:right} #imagem_whats2{position:fixed;right:0;bottom:0;display:block;cursor:pointer;z-index:9999999;float:right;display:none} @media only screen and (max-width: 999px) and (min-width: 100px){#imagem_whats{display:none}#imagem_whats2{display:block}}</style><img id="imagem_whats" src="https://www.ellodigital.com.br/images/whatsapp.png" onClick="window.open('https://web.whatsapp.com/send?phone=+5585988795153&amp;text=Olá!❤️ GOSTEI DE SEU SITE E GOSTARIA DE DIZER QUE ...', '_blank');"><img id="imagem_whats2" src="https://www.ellodigital.com.br/images/whatsapp.png" onClick="window.open('https://api.whatsapp.com/send?phone=+556200000000&amp;text=Olá!SANTOS, QUERIA FALAR QUE...', '_blank');"><div class="preloader"> <div class="preloaderimg"></div></div>
 <!---------------------------------------------------------------------->
 <br/> FALE COMIGO P/ WHATSAPP<br/>
 <!-------------------------WHATSAPP E EMAIL----------------------------->
